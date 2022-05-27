@@ -8,8 +8,8 @@ public class CalculatorTest {
 	//initialize a and b as an int
 	int a, b, c;
 	Calculator cal = new Calculator();
-	
-	@Before
+
+		@Before
 	public void setUp() throws Exception {
 		//initialize so no nid repeat 
 		a = 4321; 
